@@ -23,7 +23,7 @@ namespace :my_tasks do
   task :symlink, :roles => [:web] do
     run "mkdir -p #{deploy_to}/shared/log"
     run "mkdir -p #{deploy_to}/shared/pids"
-    run "rm -rf #{release_path}/plugins"
+    # run "rm -rf #{release_path}/plugins"
     
     symlink_hash = {
       "#{shared_path}/config/database.yml"   => "#{release_path}/config/database.yml",
