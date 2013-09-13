@@ -1,0 +1,159 @@
+# encoding: utf-8
+zh-TW:
+  contacts_title: 聯絡人
+  label_contacts_visibility: 可檢視權限
+  label_contacts_visibility_project: 依所屬專案權限
+  label_contacts_visibility_public: 公開
+  label_contacts_visibility_private: 私人
+
+  label_all_people: 所有聯絡人
+  label_all_companies: 所有公司
+  label_all_people_and_companies: 所有聯絡人和公司
+  label_recently_viewed: 最近瀏覽
+  label_gravatar_enabled: 使用頭像
+  label_contacts_thumbnails_enabled: 在備註顯示縮圖
+  label_max_contacts_thumbnail_file_size: 最大縮圖尺寸
+  label_contacts_view_all: 所有聯絡人
+  label_contact_files: 文件
+  label_task_plural: 任務
+  label_contact_background_info: 背景資訊
+  label_person: 個人
+  label_company: 公司   
+  label_contact_plural: 聯絡人列表   
+  label_contact_information: 聯絡人資訊
+  label_contact_edit_information: 編輯聯絡人資訊
+  label_edit_tags: 編輯標籤
+  label_contact_view: 視圖
+  label_contact_list: 列表
+  label_contact_new: 新建
+  label_at_company: 在
+  label_last_notes: 最新的備註
+  label_tags_plural: 標籤     
+  label_multi_tags_plural: 選中多個標籤
+  label_single_tag_mode: 單標籤
+  label_multiple_tags_mode: 多標籤
+  label_contact_tag: 標籤
+  label_time_ago: 之前
+  label_add_note_plural: 增加備註 
+  label_note_plural: 備註
+  label_company_employees: 員工
+  label_add_tags_rule: 用逗號分隔
+  label_contact_search: 按名字搜索
+  label_note_for: 備註
+  label_show_on_map: 在地圖上顯示   
+  label_add_another_phone: 新增電話號碼
+  label_contact_note_plural: 全部備註  
+  label_remove: 删除        
+  label_related_contacts: 相關聯絡人    
+  label_assigned_to: 聯絡窗口
+  label_issue_added: 建立的問題
+  label_add_emails_rule: 用逗號分隔
+  label_add_phones_rule: 用逗號分隔
+
+  label_add_employee: 新建員工   
+  label_merge_duplicate_plural: 合併
+  label_duplicate_plural: 可能重複的聯絡人
+  label_duplicate_for_plural: 可能與下列聯絡人重複
+  label_note_show_extras: 高級 (文件, 日期)
+  label_note_hide_extras: 隐藏高级選項       
+  label_note_added: 成功新增了備註
+  label_note_read_more: (更多)
+
+  label_deal_plural: 合約
+  label_contractor_plural: 簽約者
+  label_deal: 合約     
+  label_deal_new: 新合約
+  label_deal_edit_information: 編輯合約資訊
+  label_deal_change_status: 更改狀態 
+  label_deal_pending: 等待
+  label_deal_won: 赢得
+  label_deal_lost: 失去
+
+  field_note_date: 備註日期
+  field_deal_name: 名稱
+  field_deal_background: 背景
+  field_deal_contact: 聯絡人    
+  field_deal_price: 合計
+  field_price: 合計
+  field_contact_avatar: 頭像
+  field_contact_is_company: 公司
+  field_contact_name: 名字
+  field_contact_last_name: 姓
+  field_contact_first_name: 名
+  field_contact_middle_name: 中間名
+  field_contact_job_title: 職位
+  field_contact_company: 公司
+  field_contact_address: 地址
+  field_contact_phone: 電話
+  field_contact_email: 電子郵件
+  field_contact_website: 網址
+  field_contact_skype: Skype
+  field_contact_status: 狀態  
+  field_contact_background: 背景   
+  field_contact_tag_names: 標籤   
+  field_first_name: 名字
+  field_last_name: 姓
+  field_company: 公司 
+  field_birthday: 生日      
+  field_contact_department: 部門  
+  field_company_field: 行業  
+  button_add_note: 增加備註  
+  notice_successful_save: 已存檔
+  notice_successful_add: 新增成功
+  notice_unsuccessful_save: 無法存檔
+  notice_successful_merged: 已合併
+  project_module_contacts_module: 聯絡人
+  permission_add_contacts: 增加聯絡人
+  permission_view_contacts: 查看聯絡人
+  permission_view_private_contacts: 查看私人聯絡人
+  permission_edit_contacts: 編輯聯絡人
+  permission_delete_contacts: 删除聯絡人
+  permission_view_deals: 查看合約
+  permission_edit_deals: 編輯合約
+  permission_delete_deals: 删除合約 
+  permission_add_notes: 增加備註  
+  permission_delete_notes: 删除備註      
+  permission_delete_own_notes: 删除自己的備註 
+  permission_manage_contacts: 管理聯絡人細項
+  notice_merged_warning: 所有的備註，項目，標籤和附加到這個聯絡人的任務將被移至以下被選取的聯絡人，然後此聯絡人將會被删除.
+  # 2.0.0   
+  label_deal_category: Deal category   
+  label_deal_category_plural: Deals categories   
+  label_deal_category_new: New category
+  text_deal_category_destroy_assignments: Remove category assignments
+  text_deal_category_destroy_question: "Some deals (%{count}) are assigned to this category. What do you want to do?"
+  text_deal_category_reassign_to: Reassign deals to this category 
+  text_deals_destroy_confirmation: 'Are you sure you want to delete the selected deal(s)?'  
+  label_deal_status_plural: Deal statuses 
+  label_deal_status: Deal status 
+  field_deal_status_is_closed: Closed 
+  label_deal_status_new: New     
+  label_sales_funnel: Sales funnel
+  label_period: Perion
+  label_count: Count 
+  #2.0.1
+  label_user_format: Contact name format 
+  label_my_contact_plural: Contacts assigned to me
+  label_my_deal_plural: Open deals assigned to me 
+  label_contact_view_all: View all contacts  
+  label_deal_view_all: View all deals  
+  #2.0.2
+  label_bulk_edit_selected_contacts: Edit all selected contacts
+  label_bulk_edit_selected_deals: Edit all selected deals
+  label_bulk_send_mail_selected_contacts: Send mail to selected contacts
+  field_add_tags: Add tags
+  field_delete_tags: Delete tags
+  label_send_mail: Send mail   
+  error_empty_email: Email can not be blank
+  permission_send_contacts_mail: Send mail
+  field_mail_from: From address
+  text_email_macros: Avaliable macros %{macro}
+  field_message: Message
+
+  #2.0.3
+  label_add_contact: Add new contact in project
+  label_contact: Contact
+  field_age: Age
+  label_vcf_import: Import from vCard
+  label_mail_from: From
+  permission_import_contacts: Import contacts
