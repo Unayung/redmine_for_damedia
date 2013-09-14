@@ -1,6 +1,6 @@
 # -*- encoding : utf-8 -*-
 set :application, "redmine_for_damedia" 
-set :domain, "mac2hand.tw" 
+set :domain, "192.168.10.42" 
 set :repository, "git@github.com:Unayung/redmine_for_damedia.git" # your ssh way in github.
 set :deploy_to, "/home/apps/redmine_for_damedia" 
 role :app, domain
