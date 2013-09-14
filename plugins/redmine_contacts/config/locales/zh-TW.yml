@@ -5,7 +5,7 @@ zh-TW:
   label_contacts_visibility_project: 依所屬專案權限
   label_contacts_visibility_public: 公開
   label_contacts_visibility_private: 私人
-
+  label_show_on_projects_show: 在專案概述顯示聯絡人
   label_all_people: 所有聯絡人
   label_all_companies: 所有公司
   label_all_people_and_companies: 所有聯絡人和公司
