@@ -65,7 +65,7 @@ textarea#issue_description { width: 93%;}
 /* END Header */
 
 /* Top Menu */
-#top-menu { background-color: #CD321D; font-size: .9em; position: relative; margin-left: -.3em; padding: 0; height: 21px }
+#top-menu { background-color: #CD321D; font-size: 1.2em; position: relative; margin-left: -.3em; padding: 0; height: 21px }
 #top-menu ul { padding: 0 21px; }
 #top-menu li, #top-menu #loggedas { color: #ddd; line-height: 21px; margin-right: 0px;}
 #top-menu li a { color: #E1E1E1; font-weight: normal; padding:4px 5px; }
