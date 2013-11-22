@@ -440,7 +440,7 @@ module ApplicationHelper
         end
         b += ancestors.collect {|p| link_to_project(p, {:jump => current_menu_item}, :class => 'ancestor') }
       end
-      b << h(@project)
+      b << h(content_tag(:span, "#{@project}", :class => "project-name-red"))
       b.join(" \xc2\xbb ").html_safe
     end
   end
