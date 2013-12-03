@@ -29,7 +29,7 @@ h4 {border-bottom: 1px dotted #bbb;}
 #header a {color:#f8f8f8;}
 #header h1 a.root { font-size: 80%; }
 #header h1 a.ancestor { font-size: 80%; color: #CD321D !important;}
-#header span.project-name-red { color: #CD321D !important;}
+#header span.project-name-red { color: #CD321D !important; font-size: 80%; text-shadow: none;}
 #quick-search {float:right;}
 
 #main-menu {position: absolute;  bottom: 0px;  left:6px; margin-right: -500px;}
