@@ -27,7 +27,7 @@ namespace :my_tasks do
     
     symlink_hash = {
       "#{shared_path}/config/database.yml"   => "#{release_path}/config/database.yml",
-      # "#{shared_path}/config/config.yml"    => "#{release_path}/config/config.yml",
+      "#{shared_path}/config/configuration.yml"    => "#{release_path}/config/configuration.yml",
       "#{shared_path}/files"              => "#{release_path}/files",
     #  "#{shared_path}/plugins"              => "#{release_path}/plugins",
     #  "#{shared_path}/config/schedule.rb"   => "#{release_path}/config/schedule.rb",
